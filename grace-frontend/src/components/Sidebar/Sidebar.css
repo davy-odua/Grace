@@ -5,6 +5,13 @@
     position: relative;
     height: 100vh;
     position: fixed;
+    background: linear-gradient(
+        to bottom,
+        #064e3b 0%,     /* dark green at the top */
+        #04845b 50%,    /* medium green in the middle */
+        #038147 100%    /* light mint at the bottom */
+    );
+    color: #cfcdcd;
 }
 .logo{
     display: flex;
