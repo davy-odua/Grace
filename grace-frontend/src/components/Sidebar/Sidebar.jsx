@@ -4,6 +4,7 @@ import { GiDiamonds } from "react-icons/gi";
 import { LuSquareSlash } from "react-icons/lu";
 import { RxPeople } from "react-icons/rx";
 import { SlCalender } from "react-icons/sl";
+import { BsCurrencyDollar } from "react-icons/bs";
 
 
 const Sidebar = () => {
@@ -22,7 +23,7 @@ const Sidebar = () => {
             <li><a> <LuSquareSlash className="sidebar-icon" /> Overview</a></li>
             <li><a> <RxPeople className="sidebar-icon" /> People</a></li>
             <li><a> <SlCalender className="sidebar-icon" /> Events</a></li>
-            <li><a>Giving</a></li>
+            <li><a> <BsCurrencyDollar className="sidebar-icon" /> Giving</a></li>
             <li><a>Groups</a></li>
             <li><a>Messages</a></li>
         </ul>
