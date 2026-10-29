@@ -7,6 +7,7 @@ import { SlCalender } from "react-icons/sl";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { MdOutlineGroups } from "react-icons/md";
 import { FiMessageSquare } from "react-icons/fi";
+import { IoSettingsOutline } from "react-icons/io5";
 
 
 const Sidebar = () => {
@@ -31,7 +32,7 @@ const Sidebar = () => {
         </ul>
 
         <div className="sideBar-bottom">
-            <a>Settings</a>
+            <a> <IoSettingsOutline className="sidebar-icon" /> Settings</a>
             <div className="user">
                 <h2 className="profile">DK</h2>
                 <h1 className='profile-text'>

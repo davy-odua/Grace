@@ -8,8 +8,8 @@
     background: linear-gradient(
         to bottom,
         #064e3b 0%,     /* dark green at the top */
-        #04845b 50%,    /* medium green in the middle */
-        #038147 100%    /* light mint at the bottom */
+        #035e41 50%,    /* medium green in the middle */
+        #03713e 100%    /* light mint at the bottom */
     );
     color: #cfcdcd;
 }
@@ -39,7 +39,7 @@
     list-style-type: none;
     line-height: 3.5rem;
 }
-.side-bar ul li a{
+.side-bar ul li a, .sideBar-bottom a {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
