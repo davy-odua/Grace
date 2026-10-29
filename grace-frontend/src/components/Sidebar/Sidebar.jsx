@@ -6,6 +6,7 @@ import { RxPeople } from "react-icons/rx";
 import { SlCalender } from "react-icons/sl";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { MdOutlineGroups } from "react-icons/md";
+import { FiMessageSquare } from "react-icons/fi";
 
 
 const Sidebar = () => {
@@ -26,7 +27,7 @@ const Sidebar = () => {
             <li><a> <SlCalender className="sidebar-icon" /> Events</a></li>
             <li><a> <BsCurrencyDollar className="sidebar-icon" /> Giving</a></li>
             <li><a> <MdOutlineGroups className="sidebar-icon" /> Groups</a></li>
-            <li><a>Messages</a></li>
+            <li><a> <FiMessageSquare className="sidebar-icon" /> Messages</a></li>
         </ul>
 
         <div className="sideBar-bottom">
