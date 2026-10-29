@@ -1,0 +1,70 @@
+.side-bar{
+    border: 2px solid black;
+    width: 16%;
+    padding: 2rem;
+    position: relative;
+    height: 100vh;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.logo-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+.logo-text{
+    margin-left: 10px;
+    line-height: 1;  
+}
+.logo-text span{
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+}
+.side-bar ul li{
+    list-style-type: none;
+    line-height: 3.5rem;
+}
+.side-bar ul li a{
+    display: inline-flex;
+    align-items: center;
+}
+.side-bar .sidebar-icon{
+    margin-left: 5px;
+}
+
+.sideBar-bottom{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.user{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.user .profile{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.profile-text{
+    margin-left: 10px;
+    line-height: 1;  
+    font-size: 16px;
+}
+.profile-text span{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;    
+}
