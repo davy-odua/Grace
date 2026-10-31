@@ -8,7 +8,9 @@ const Navbar = () => {
             <p>Workspace / Overview</p>
         </div>
         <div className="right">
-
+            <p>S</p>
+            <p>D</p>
+            <p>N</p>
         </div>
     </div>
     </>
