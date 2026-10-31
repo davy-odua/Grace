@@ -1,10 +1,15 @@
 import Sidebar from "../../components/Sidebar/Sidebar.jsx";
+import './Home.css'
 
 const Home = () => {
   return (
     <>
-    <Sidebar />
-    <h2></h2>
+    <div className="home">
+        <div className="sidebar"><Sidebar /></div>
+        <div className="overview">
+            <h1>Overview</h1>
+        </div>
+    </div>
     </>
   )
 }
