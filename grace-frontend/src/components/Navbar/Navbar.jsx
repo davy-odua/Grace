@@ -1,4 +1,5 @@
 import './Navbar.css';
+import { IoMdSearch } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
             <p>Workspace / Overview</p>
         </div>
         <div className="right">
-            <p>S</p>
+            <p><IoMdSearch /></p>
             <p>D</p>
             <p>N</p>
         </div>
