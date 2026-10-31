@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
         <div className="right">
             <IoMdSearch />
-            <p><CiCompass1 /></p>
+            <CiCompass1 />
             <p>N</p>
         </div>
     </div>
