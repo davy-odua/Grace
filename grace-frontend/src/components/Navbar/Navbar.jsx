@@ -9,7 +9,7 @@ const Navbar = () => {
             <p>Workspace / Overview</p>
         </div>
         <div className="right">
-            <p><IoMdSearch /></p>
+            <IoMdSearch />
             <p><CiCompass1 /></p>
             <p>N</p>
         </div>
