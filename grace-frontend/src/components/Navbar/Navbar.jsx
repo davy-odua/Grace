@@ -9,9 +9,11 @@ const Navbar = () => {
             <p>Workspace / Overview</p>
         </div>
         <div className="right">
-            <IoMdSearch className='nav-icon' />
-            <CiCompass1 className='nav-icon' />
-            <p>N</p>
+            <IoMdSearch className='nav-item nav-icon' />
+            <CiCompass1 className='nav-item nav-icon' />
+            <p className='nav-item'>N</p>
+             <p className='nav-item'>N</p>
+
         </div>
     </div>
     </>
