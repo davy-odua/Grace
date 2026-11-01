@@ -12,6 +12,7 @@ const Navbar = () => {
             <IoMdSearch className='nav-item nav-icon' />
             <CiCompass1 className='nav-item nav-icon' />
             <p className='nav-item'>N</p>
+            
              {/* <p className='nav-item'>N</p> */}
 
         </div>
